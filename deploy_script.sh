@@ -1,17 +1,14 @@
 pip install awscli
 
-npm install webpack
 npm install
 
-webpack
-
 # Preparing and deploying Function to Lambda
-zip -r family-facts.zip index.js
+zip -r family-facts.zip index.js node_modules/
 
 aws lambda update-function-code --function-name familyFacts --zip-file fileb://family-facts.zip
 
 # Publishing a new Version of the Lambda function
-version=`aws lambda publish-version --function-name familyFacts | jq -r .Version`
+version=$(aws lambda publish-version --function-name familyFacts | jq -r .Version)
 
 # Updating the PROD Lambda Alias so it points to the new function
 aws lambda update-alias --function-name familyFacts --function-version $version --name PROD
