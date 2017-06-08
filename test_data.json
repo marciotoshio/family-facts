@@ -1,0 +1,29 @@
+{
+  "session": {
+    "sessionId": "SessionId.8c7dd1db-93eb-4074-aaf7-a226daddb61c",
+    "application": {
+      "applicationId": "amzn1.ask.skill.someappid"
+    },
+    "attributes": {},
+    "user": {
+      "userId": "amzn1.ask.account.someaccount"
+    },
+    "new": true
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.7376c306-cf3c-48e8-977f-f7f4532c0c07",
+    "locale": "en-US",
+    "timestamp": "2017-05-29T02:16:52Z",
+    "intent": {
+      "name": "GetFact",
+      "slots": {
+        "Name": {
+          "name": "Name",
+          "value": "dudu"
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
