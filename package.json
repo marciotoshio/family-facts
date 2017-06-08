@@ -1,0 +1,30 @@
+{
+  "name": "family-facts",
+  "version": "0.0.1",
+  "description": "Alexa skill with facts about our family",
+  "main": "index.js",
+  "dependencies": {
+    "alexa-sdk": "^1.0.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marciotoshio/family-facts.git"
+  },
+  "keywords": [
+    "alexa",
+    "facts",
+    "skill",
+    "amazon",
+    "echo"
+  ],
+  "author": "Marcio Toshio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marciotoshio/family-facts/issues"
+  },
+  "homepage": "https://github.com/marciotoshio/family-facts#readme"
+}
